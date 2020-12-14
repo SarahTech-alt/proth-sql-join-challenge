@@ -47,7 +47,7 @@ CREATE TABLE country (
 );
 
 
-ALTER TABLE country OWNER TO christopherblack;
+-- ALTER TABLE country OWNER TO christopherblack;
 
 --
 -- Name: country_id_seq; Type: SEQUENCE; Schema: public; Owner: christopherblack
@@ -61,13 +61,13 @@ CREATE SEQUENCE country_id_seq
     CACHE 1;
 
 
-ALTER TABLE country_id_seq OWNER TO christopherblack;
+-- ALTER TABLE country_id_seq OWNER TO christopherblack;
 
 --
 -- Name: country_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: christopherblack
 --
 
-ALTER SEQUENCE country_id_seq OWNED BY country.id;
+-- ALTER SEQUENCE country_id_seq OWNED BY country.id;
 
 
 --
@@ -81,7 +81,7 @@ CREATE TABLE land_area (
 );
 
 
-ALTER TABLE land_area OWNER TO christopherblack;
+-- ALTER TABLE land_area OWNER TO christopherblack;
 
 --
 -- Name: land_area_id_seq; Type: SEQUENCE; Schema: public; Owner: christopherblack
@@ -95,13 +95,13 @@ CREATE SEQUENCE land_area_id_seq
     CACHE 1;
 
 
-ALTER TABLE land_area_id_seq OWNER TO christopherblack;
+-- ALTER TABLE land_area_id_seq OWNER TO christopherblack;
 
 --
 -- Name: land_area_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: christopherblack
 --
 
-ALTER SEQUENCE land_area_id_seq OWNED BY land_area.id;
+-- ALTER SEQUENCE land_area_id_seq OWNED BY land_area.id;
 
 
 --
@@ -114,7 +114,7 @@ CREATE TABLE region (
 );
 
 
-ALTER TABLE region OWNER TO christopherblack;
+-- ALTER TABLE region OWNER TO christopherblack;
 
 --
 -- Name: region_id_seq; Type: SEQUENCE; Schema: public; Owner: christopherblack
@@ -128,7 +128,7 @@ CREATE SEQUENCE region_id_seq
     CACHE 1;
 
 
-ALTER TABLE region_id_seq OWNER TO christopherblack;
+-- ALTER TABLE region_id_seq OWNER TO christopherblack;
 
 --
 -- Name: region_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: christopherblack
